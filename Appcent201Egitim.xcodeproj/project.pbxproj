@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02DE919D1524233018CBB316 /* Pods_Appcent201EgitimTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63851294DB8C85965EBD6DAF /* Pods_Appcent201EgitimTests.framework */; };
+		3C6FD99CE012671D25FFDED8 /* Pods_Appcent201Egitim_Appcent201EgitimUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852670671078DE2258CFCBE /* Pods_Appcent201Egitim_Appcent201EgitimUITests.framework */; };
 		4FB1DD8827496679006FF982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DD8727496679006FF982 /* AppDelegate.swift */; };
 		4FB1DD8A27496679006FF982 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DD8927496679006FF982 /* SceneDelegate.swift */; };
 		4FB1DD8C27496679006FF982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DD8B27496679006FF982 /* ViewController.swift */; };
@@ -15,6 +17,21 @@
 		4FB1DD942749667B006FF982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1DD922749667B006FF982 /* LaunchScreen.storyboard */; };
 		4FB1DD9F2749667B006FF982 /* Appcent201EgitimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DD9E2749667B006FF982 /* Appcent201EgitimTests.swift */; };
 		4FB1DDAA2749667B006FF982 /* Appcent201EgitimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDA92749667B006FF982 /* Appcent201EgitimUITests.swift */; };
+		4FB1DDBA274967D4006FF982 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDB9274967D4006FF982 /* RequestType.swift */; };
+		4FB1DDBE274969C6006FF982 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDBD274969C6006FF982 /* Int+Extensions.swift */; };
+		4FB1DDC127496A2A006FF982 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDC027496A2A006FF982 /* Network.swift */; };
+		4FB1DDC627496FAB006FF982 /* httpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDC527496FAB006FF982 /* httpMethod.swift */; };
+		4FB1DDC8274975B4006FF982 /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDC7274975B4006FF982 /* Responses.swift */; };
+		4FB1DDCC27498CBB006FF982 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDCB27498CBB006FF982 /* BaseViewController.swift */; };
+		4FB1DDD827499CA2006FF982 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDD627499CA2006FF982 /* ProductCollectionViewCell.swift */; };
+		4FB1DDDE27499D7D006FF982 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1DDDD27499D7D006FF982 /* Colors.xcassets */; };
+		4FB1DDE027499E85006FF982 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDDF27499E85006FF982 /* Double+Extension.swift */; };
+		4FB1DDE52749A18F006FF982 /* ImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDE42749A18F006FF982 /* ImageView+extension.swift */; };
+		4FCA88122749AFC8000C75DA /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FCA88112749AFC7000C75DA /* ProductCollectionViewCell.xib */; };
+		4FD91188274D6D6600DA5941 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD91187274D6D6600DA5941 /* UIView+Extension.swift */; };
+		4FD9118E274D6F4E00DA5941 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9118C274D6F4E00DA5941 /* ProductDetailViewController.swift */; };
+		4FD9118F274D6F4E00DA5941 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9118D274D6F4E00DA5941 /* ProductDetailViewController.xib */; };
+		BDE6AB91F18028F82CA3E3F5 /* Pods_Appcent201Egitim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4D31A968E4F83C040AAB6B /* Pods_Appcent201Egitim.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4FB1DD8427496679006FF982 /* Appcent201Egitim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appcent201Egitim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1AA51B476D985849A4DB77 /* Pods-Appcent201Egitim-Appcent201EgitimUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent201Egitim-Appcent201EgitimUITests.release.xcconfig"; path = "Target Support Files/Pods-Appcent201Egitim-Appcent201EgitimUITests/Pods-Appcent201Egitim-Appcent201EgitimUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B4D31A968E4F83C040AAB6B /* Pods_Appcent201Egitim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcent201Egitim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C69B84E50B65B37CC1BC432 /* Pods-Appcent201Egitim-Appcent201EgitimUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent201Egitim-Appcent201EgitimUITests.debug.xcconfig"; path = "Target Support Files/Pods-Appcent201Egitim-Appcent201EgitimUITests/Pods-Appcent201Egitim-Appcent201EgitimUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FB1DD8727496679006FF982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FB1DD8927496679006FF982 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4FB1DD8B27496679006FF982 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +62,33 @@
 		4FB1DD902749667B006FF982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FB1DD932749667B006FF982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FB1DD952749667B006FF982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FB1DD9A2749667B006FF982 /* Appcent201EgitimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appcent201EgitimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB1DD9E2749667B006FF982 /* Appcent201EgitimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appcent201EgitimTests.swift; sourceTree = "<group>"; };
 		4FB1DDA02749667B006FF982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FB1DDA52749667B006FF982 /* Appcent201EgitimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appcent201EgitimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB1DDA92749667B006FF982 /* Appcent201EgitimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appcent201EgitimUITests.swift; sourceTree = "<group>"; };
 		4FB1DDAB2749667B006FF982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB1DDB9274967D4006FF982 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
+		4FB1DDBD274969C6006FF982 /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		4FB1DDC027496A2A006FF982 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		4FB1DDC527496FAB006FF982 /* httpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = httpMethod.swift; sourceTree = "<group>"; };
+		4FB1DDC7274975B4006FF982 /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
+		4FB1DDCB27498CBB006FF982 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4FB1DDD627499CA2006FF982 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		4FB1DDDD27499D7D006FF982 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4FB1DDDF27499E85006FF982 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		4FB1DDE12749A09E006FF982 /* Appcent201Egitim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appcent201Egitim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB1DDE22749A09E006FF982 /* Appcent201EgitimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appcent201EgitimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB1DDE32749A09E006FF982 /* Appcent201EgitimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appcent201EgitimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB1DDE42749A18F006FF982 /* ImageView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+extension.swift"; sourceTree = "<group>"; };
+		4FCA88112749AFC7000C75DA /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductCollectionViewCell.xib; path = ../../../../../Downloads/Hygge/Hygge/Cells/Product/ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		4FD91187274D6D6600DA5941 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		4FD9118C274D6F4E00DA5941 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		4FD9118D274D6F4E00DA5941 /* ProductDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailViewController.xib; sourceTree = "<group>"; };
+		5852670671078DE2258CFCBE /* Pods_Appcent201Egitim_Appcent201EgitimUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcent201Egitim_Appcent201EgitimUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63851294DB8C85965EBD6DAF /* Pods_Appcent201EgitimTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcent201EgitimTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCBE5FA7B58BAE2D1E8E326 /* Pods-Appcent201EgitimTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent201EgitimTests.release.xcconfig"; path = "Target Support Files/Pods-Appcent201EgitimTests/Pods-Appcent201EgitimTests.release.xcconfig"; sourceTree = "<group>"; };
+		8ADEF7D67E55B80AE0C14B90 /* Pods-Appcent201Egitim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent201Egitim.debug.xcconfig"; path = "Target Support Files/Pods-Appcent201Egitim/Pods-Appcent201Egitim.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9A4E48B296742EB1396EFD /* Pods-Appcent201Egitim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent201Egitim.release.xcconfig"; path = "Target Support Files/Pods-Appcent201Egitim/Pods-Appcent201Egitim.release.xcconfig"; sourceTree = "<group>"; };
+		E4D980F7B5176ADC59B68CAE /* Pods-Appcent201EgitimTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent201EgitimTests.debug.xcconfig"; path = "Target Support Files/Pods-Appcent201EgitimTests/Pods-Appcent201EgitimTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE6AB91F18028F82CA3E3F5 /* Pods_Appcent201Egitim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DE919D1524233018CBB316 /* Pods_Appcent201EgitimTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,42 +112,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6FD99CE012671D25FFDED8 /* Pods_Appcent201Egitim_Appcent201EgitimUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		023AA569E0A0F595D00A3998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B4D31A968E4F83C040AAB6B /* Pods_Appcent201Egitim.framework */,
+				5852670671078DE2258CFCBE /* Pods_Appcent201Egitim_Appcent201EgitimUITests.framework */,
+				63851294DB8C85965EBD6DAF /* Pods_Appcent201EgitimTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4FB1DD7B27496679006FF982 = {
 			isa = PBXGroup;
 			children = (
 				4FB1DD8627496679006FF982 /* Appcent201Egitim */,
 				4FB1DD9D2749667B006FF982 /* Appcent201EgitimTests */,
 				4FB1DDA82749667B006FF982 /* Appcent201EgitimUITests */,
-				4FB1DD8527496679006FF982 /* Products */,
+				7F7D93785619A7D108AC80E0 /* Pods */,
+				023AA569E0A0F595D00A3998 /* Frameworks */,
+				4FB1DDE12749A09E006FF982 /* Appcent201Egitim.app */,
+				4FB1DDE22749A09E006FF982 /* Appcent201EgitimTests.xctest */,
+				4FB1DDE32749A09E006FF982 /* Appcent201EgitimUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		4FB1DD8527496679006FF982 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4FB1DD8427496679006FF982 /* Appcent201Egitim.app */,
-				4FB1DD9A2749667B006FF982 /* Appcent201EgitimTests.xctest */,
-				4FB1DDA52749667B006FF982 /* Appcent201EgitimUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4FB1DD8627496679006FF982 /* Appcent201Egitim */ = {
 			isa = PBXGroup;
 			children = (
-				4FB1DD8727496679006FF982 /* AppDelegate.swift */,
-				4FB1DD8927496679006FF982 /* SceneDelegate.swift */,
-				4FB1DD8B27496679006FF982 /* ViewController.swift */,
-				4FB1DD8D27496679006FF982 /* Main.storyboard */,
-				4FB1DD902749667B006FF982 /* Assets.xcassets */,
-				4FB1DD922749667B006FF982 /* LaunchScreen.storyboard */,
 				4FB1DD952749667B006FF982 /* Info.plist */,
+				4FB1DDC427496DA2006FF982 /* Assests */,
+				4FB1DDC227496D0A006FF982 /* Delegates */,
+				4FB1DDB8274967C0006FF982 /* Network */,
+				4FB1DDC327496D1B006FF982 /* Storyboards */,
+				4FB1DDBB27496998006FF982 /* Utilities */,
+				4FB1DDD527499C7A006FF982 /* Cells */,
+				4FB1DDB7274966DF006FF982 /* ViewControllers */,
 			);
 			path = Appcent201Egitim;
 			sourceTree = "<group>";
@@ -128,6 +176,120 @@
 			path = Appcent201EgitimUITests;
 			sourceTree = "<group>";
 		};
+		4FB1DDB7274966DF006FF982 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9118B274D6F3100DA5941 /* ProductsDetail */,
+				4FD9118A274D6F2000DA5941 /* Products */,
+				4FD91189274D6F1700DA5941 /* BaseView */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4FB1DDB8274967C0006FF982 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4FB1DDB9274967D4006FF982 /* RequestType.swift */,
+				4FB1DDC027496A2A006FF982 /* Network.swift */,
+				4FB1DDC527496FAB006FF982 /* httpMethod.swift */,
+				4FB1DDC7274975B4006FF982 /* Responses.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4FB1DDBB27496998006FF982 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4FB1DDBC274969B6006FF982 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4FB1DDBC274969B6006FF982 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4FB1DDBD274969C6006FF982 /* Int+Extensions.swift */,
+				4FB1DDDF27499E85006FF982 /* Double+Extension.swift */,
+				4FB1DDE42749A18F006FF982 /* ImageView+extension.swift */,
+				4FD91187274D6D6600DA5941 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4FB1DDC227496D0A006FF982 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4FB1DD8727496679006FF982 /* AppDelegate.swift */,
+				4FB1DD8927496679006FF982 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4FB1DDC327496D1B006FF982 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4FB1DD922749667B006FF982 /* LaunchScreen.storyboard */,
+				4FB1DD8D27496679006FF982 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4FB1DDC427496DA2006FF982 /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				4FB1DD902749667B006FF982 /* Assets.xcassets */,
+				4FB1DDDD27499D7D006FF982 /* Colors.xcassets */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
+		4FB1DDD527499C7A006FF982 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4FB1DDD627499CA2006FF982 /* ProductCollectionViewCell.swift */,
+				4FCA88112749AFC7000C75DA /* ProductCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4FD91189274D6F1700DA5941 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				4FB1DDCB27498CBB006FF982 /* BaseViewController.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		4FD9118A274D6F2000DA5941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FB1DD8B27496679006FF982 /* ViewController.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		4FD9118B274D6F3100DA5941 /* ProductsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9118C274D6F4E00DA5941 /* ProductDetailViewController.swift */,
+				4FD9118D274D6F4E00DA5941 /* ProductDetailViewController.xib */,
+			);
+			path = ProductsDetail;
+			sourceTree = "<group>";
+		};
+		7F7D93785619A7D108AC80E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8ADEF7D67E55B80AE0C14B90 /* Pods-Appcent201Egitim.debug.xcconfig */,
+				CB9A4E48B296742EB1396EFD /* Pods-Appcent201Egitim.release.xcconfig */,
+				3C69B84E50B65B37CC1BC432 /* Pods-Appcent201Egitim-Appcent201EgitimUITests.debug.xcconfig */,
+				1C1AA51B476D985849A4DB77 /* Pods-Appcent201Egitim-Appcent201EgitimUITests.release.xcconfig */,
+				E4D980F7B5176ADC59B68CAE /* Pods-Appcent201EgitimTests.debug.xcconfig */,
+				7CCBE5FA7B58BAE2D1E8E326 /* Pods-Appcent201EgitimTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FB1DDAE2749667B006FF982 /* Build configuration list for PBXNativeTarget "Appcent201Egitim" */;
 			buildPhases = (
+				53655B6BAF2F872B76EA6505 /* [CP] Check Pods Manifest.lock */,
 				4FB1DD8027496679006FF982 /* Sources */,
 				4FB1DD8127496679006FF982 /* Frameworks */,
 				4FB1DD8227496679006FF982 /* Resources */,
+				C98D9F78E4349C491B2DAC00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,13 +309,14 @@
 			);
 			name = Appcent201Egitim;
 			productName = Appcent201Egitim;
-			productReference = 4FB1DD8427496679006FF982 /* Appcent201Egitim.app */;
+			productReference = 4FB1DDE12749A09E006FF982 /* Appcent201Egitim.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4FB1DD992749667B006FF982 /* Appcent201EgitimTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FB1DDB12749667B006FF982 /* Build configuration list for PBXNativeTarget "Appcent201EgitimTests" */;
 			buildPhases = (
+				E607014202CB01C1AEE32252 /* [CP] Check Pods Manifest.lock */,
 				4FB1DD962749667B006FF982 /* Sources */,
 				4FB1DD972749667B006FF982 /* Frameworks */,
 				4FB1DD982749667B006FF982 /* Resources */,
@@ -163,16 +328,18 @@
 			);
 			name = Appcent201EgitimTests;
 			productName = Appcent201EgitimTests;
-			productReference = 4FB1DD9A2749667B006FF982 /* Appcent201EgitimTests.xctest */;
+			productReference = 4FB1DDE22749A09E006FF982 /* Appcent201EgitimTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		4FB1DDA42749667B006FF982 /* Appcent201EgitimUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FB1DDB42749667B006FF982 /* Build configuration list for PBXNativeTarget "Appcent201EgitimUITests" */;
 			buildPhases = (
+				12031EF5219F4A647778FC47 /* [CP] Check Pods Manifest.lock */,
 				4FB1DDA12749667B006FF982 /* Sources */,
 				4FB1DDA22749667B006FF982 /* Frameworks */,
 				4FB1DDA32749667B006FF982 /* Resources */,
+				8B17342829DB325E00A4FCE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,7 +348,7 @@
 			);
 			name = Appcent201EgitimUITests;
 			productName = Appcent201EgitimUITests;
-			productReference = 4FB1DDA52749667B006FF982 /* Appcent201EgitimUITests.xctest */;
+			productReference = 4FB1DDE32749A09E006FF982 /* Appcent201EgitimUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +382,7 @@
 				Base,
 			);
 			mainGroup = 4FB1DD7B27496679006FF982;
-			productRefGroup = 4FB1DD8527496679006FF982 /* Products */;
+			productRefGroup = 4FB1DD7B27496679006FF982;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -231,9 +398,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB1DDDE27499D7D006FF982 /* Colors.xcassets in Resources */,
 				4FB1DD942749667B006FF982 /* LaunchScreen.storyboard in Resources */,
+				4FCA88122749AFC8000C75DA /* ProductCollectionViewCell.xib in Resources */,
 				4FB1DD912749667B006FF982 /* Assets.xcassets in Resources */,
 				4FB1DD8F27496679006FF982 /* Main.storyboard in Resources */,
+				4FD9118F274D6F4E00DA5941 /* ProductDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +423,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12031EF5219F4A647778FC47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Appcent201Egitim-Appcent201EgitimUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53655B6BAF2F872B76EA6505 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Appcent201Egitim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B17342829DB325E00A4FCE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcent201Egitim-Appcent201EgitimUITests/Pods-Appcent201Egitim-Appcent201EgitimUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcent201Egitim-Appcent201EgitimUITests/Pods-Appcent201Egitim-Appcent201EgitimUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appcent201Egitim-Appcent201EgitimUITests/Pods-Appcent201Egitim-Appcent201EgitimUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C98D9F78E4349C491B2DAC00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcent201Egitim/Pods-Appcent201Egitim-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcent201Egitim/Pods-Appcent201Egitim-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appcent201Egitim/Pods-Appcent201Egitim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E607014202CB01C1AEE32252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Appcent201EgitimTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4FB1DD8027496679006FF982 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4FB1DD8C27496679006FF982 /* ViewController.swift in Sources */,
+				4FD91188274D6D6600DA5941 /* UIView+Extension.swift in Sources */,
 				4FB1DD8827496679006FF982 /* AppDelegate.swift in Sources */,
+				4FB1DDD827499CA2006FF982 /* ProductCollectionViewCell.swift in Sources */,
+				4FB1DDC627496FAB006FF982 /* httpMethod.swift in Sources */,
+				4FB1DDC127496A2A006FF982 /* Network.swift in Sources */,
+				4FB1DDE027499E85006FF982 /* Double+Extension.swift in Sources */,
+				4FB1DDC8274975B4006FF982 /* Responses.swift in Sources */,
+				4FB1DDCC27498CBB006FF982 /* BaseViewController.swift in Sources */,
+				4FD9118E274D6F4E00DA5941 /* ProductDetailViewController.swift in Sources */,
 				4FB1DD8A27496679006FF982 /* SceneDelegate.swift in Sources */,
+				4FB1DDBA274967D4006FF982 /* RequestType.swift in Sources */,
+				4FB1DDE52749A18F006FF982 /* ImageView+extension.swift in Sources */,
+				4FB1DDBE274969C6006FF982 /* Int+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +717,7 @@
 		};
 		4FB1DDAF2749667B006FF982 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ADEF7D67E55B80AE0C14B90 /* Pods-Appcent201Egitim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +737,7 @@
 		};
 		4FB1DDB02749667B006FF982 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9A4E48B296742EB1396EFD /* Pods-Appcent201Egitim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +757,7 @@
 		};
 		4FB1DDB22749667B006FF982 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D980F7B5176ADC59B68CAE /* Pods-Appcent201EgitimTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +780,7 @@
 		};
 		4FB1DDB32749667B006FF982 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CCBE5FA7B58BAE2D1E8E326 /* Pods-Appcent201EgitimTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +803,7 @@
 		};
 		4FB1DDB52749667B006FF982 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C69B84E50B65B37CC1BC432 /* Pods-Appcent201Egitim-Appcent201EgitimUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +824,7 @@
 		};
 		4FB1DDB62749667B006FF982 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1AA51B476D985849A4DB77 /* Pods-Appcent201Egitim-Appcent201EgitimUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

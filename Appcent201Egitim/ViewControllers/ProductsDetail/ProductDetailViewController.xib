@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProductDetailViewController" customModule="Appcent201Egitim" customModuleProvider="target">
+            <connections>
+                <outlet property="buyButton" destination="egS-Wd-Z2B" id="cam-SF-ve9"/>
+                <outlet property="productAmountLabel" destination="voN-dT-5fD" id="MfT-fb-D1e"/>
+                <outlet property="productImageView" destination="b1Z-zK-agL" id="epH-AL-BcI"/>
+                <outlet property="productNameLabel" destination="LRd-TO-pY2" id="LsX-zJ-h7z"/>
+                <outlet property="storesButton" destination="Jhx-Lt-eGv" id="n4W-I4-f0X"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jhx-Lt-eGv">
+                    <rect key="frame" x="53" y="695" width="304" height="55"/>
+                    <color key="backgroundColor" name="lightGray"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="hXC-Or-qSy"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Hangi Mağazada Var?">
+                        <color key="baseForegroundColor" name="black"/>
+                    </buttonConfiguration>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="22"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="actionStore:" destination="-1" eventType="touchUpInside" id="F4F-a9-myc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egS-Wd-Z2B">
+                    <rect key="frame" x="53" y="781" width="304" height="55"/>
+                    <color key="backgroundColor" name="green"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="GBN-rl-K0W"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Satın Al">
+                        <color key="baseForegroundColor" name="black"/>
+                    </buttonConfiguration>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="22"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="actionAddToCart:" destination="-1" eventType="touchUpInside" id="hJK-zE-a3T"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b1Z-zK-agL">
+                    <rect key="frame" x="72" y="67" width="270" height="326"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="LRd-TO-pY2">
+                    <rect key="frame" x="72" y="464" width="285" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="8sQ-3f-8dD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voN-dT-5fD">
+                    <rect key="frame" x="79" y="550" width="270" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="69" id="z8E-vY-Yjk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="egS-Wd-Z2B" firstAttribute="top" secondItem="Jhx-Lt-eGv" secondAttribute="bottom" constant="31" id="A2k-xr-rAB"/>
+                <constraint firstItem="b1Z-zK-agL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="23" id="Cui-Qo-EpM"/>
+                <constraint firstItem="voN-dT-5fD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="79" id="DQf-GW-uSD"/>
+                <constraint firstItem="Jhx-Lt-eGv" firstAttribute="top" secondItem="voN-dT-5fD" secondAttribute="bottom" constant="76" id="DmK-pt-B71"/>
+                <constraint firstItem="Jhx-Lt-eGv" firstAttribute="leading" secondItem="egS-Wd-Z2B" secondAttribute="leading" id="FyF-RG-kaK"/>
+                <constraint firstItem="voN-dT-5fD" firstAttribute="top" secondItem="LRd-TO-pY2" secondAttribute="bottom" constant="26" id="Nkn-gE-X3C"/>
+                <constraint firstItem="Jhx-Lt-eGv" firstAttribute="trailing" secondItem="egS-Wd-Z2B" secondAttribute="trailing" id="OlE-mQ-I0W"/>
+                <constraint firstItem="Jhx-Lt-eGv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="53" id="SX6-mb-RIE"/>
+                <constraint firstItem="b1Z-zK-agL" firstAttribute="leading" secondItem="LRd-TO-pY2" secondAttribute="leading" id="T2a-vf-Xda"/>
+                <constraint firstItem="LRd-TO-pY2" firstAttribute="trailing" secondItem="Jhx-Lt-eGv" secondAttribute="trailing" id="anB-bb-ROL"/>
+                <constraint firstItem="LRd-TO-pY2" firstAttribute="centerX" secondItem="voN-dT-5fD" secondAttribute="centerX" id="bx2-UA-HRE"/>
+                <constraint firstItem="b1Z-zK-agL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cPk-Cd-xN8"/>
+                <constraint firstItem="b1Z-zK-agL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="72" id="hNE-RC-EZ7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LRd-TO-pY2" secondAttribute="trailing" constant="57" id="ovK-85-Gu0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="egS-Wd-Z2B" secondAttribute="bottom" constant="26" id="ssO-S6-hnq"/>
+                <constraint firstItem="LRd-TO-pY2" firstAttribute="top" secondItem="b1Z-zK-agL" secondAttribute="bottom" constant="71" id="tfE-Qw-IQr"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="63.616071428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="black">
+            <color red="0.10199999809265137" green="0.125" blue="0.17299999296665192" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="green">
+            <color red="0.0" green="0.80000001192092896" blue="0.58799999952316284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="lightGray">
+            <color red="0.9649999737739563" green="0.96899998188018799" blue="0.98400002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

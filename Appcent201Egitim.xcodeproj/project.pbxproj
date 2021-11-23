@@ -26,11 +26,11 @@
 		4FB1DDD827499CA2006FF982 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDD627499CA2006FF982 /* ProductCollectionViewCell.swift */; };
 		4FB1DDDE27499D7D006FF982 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1DDDD27499D7D006FF982 /* Colors.xcassets */; };
 		4FB1DDE027499E85006FF982 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDDF27499E85006FF982 /* Double+Extension.swift */; };
-		4FB1DDE52749A18F006FF982 /* ImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDE42749A18F006FF982 /* ImageView+extension.swift */; };
 		4FCA88122749AFC8000C75DA /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FCA88112749AFC7000C75DA /* ProductCollectionViewCell.xib */; };
 		4FD91188274D6D6600DA5941 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD91187274D6D6600DA5941 /* UIView+Extension.swift */; };
 		4FD9118E274D6F4E00DA5941 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9118C274D6F4E00DA5941 /* ProductDetailViewController.swift */; };
 		4FD9118F274D6F4E00DA5941 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9118D274D6F4E00DA5941 /* ProductDetailViewController.xib */; };
+		4FD91191274D8E4B00DA5941 /* ImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD91190274D8E4B00DA5941 /* ImageView+Extensions.swift */; };
 		BDE6AB91F18028F82CA3E3F5 /* Pods_Appcent201Egitim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4D31A968E4F83C040AAB6B /* Pods_Appcent201Egitim.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,11 +78,11 @@
 		4FB1DDE12749A09E006FF982 /* Appcent201Egitim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appcent201Egitim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB1DDE22749A09E006FF982 /* Appcent201EgitimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appcent201EgitimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB1DDE32749A09E006FF982 /* Appcent201EgitimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appcent201EgitimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FB1DDE42749A18F006FF982 /* ImageView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+extension.swift"; sourceTree = "<group>"; };
 		4FCA88112749AFC7000C75DA /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductCollectionViewCell.xib; path = ../../../../../Downloads/Hygge/Hygge/Cells/Product/ProductCollectionViewCell.xib; sourceTree = "<group>"; };
 		4FD91187274D6D6600DA5941 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		4FD9118C274D6F4E00DA5941 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 		4FD9118D274D6F4E00DA5941 /* ProductDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailViewController.xib; sourceTree = "<group>"; };
+		4FD91190274D8E4B00DA5941 /* ImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+Extensions.swift"; sourceTree = "<group>"; };
 		5852670671078DE2258CFCBE /* Pods_Appcent201Egitim_Appcent201EgitimUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcent201Egitim_Appcent201EgitimUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63851294DB8C85965EBD6DAF /* Pods_Appcent201EgitimTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcent201EgitimTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCBE5FA7B58BAE2D1E8E326 /* Pods-Appcent201EgitimTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent201EgitimTests.release.xcconfig"; path = "Target Support Files/Pods-Appcent201EgitimTests/Pods-Appcent201EgitimTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -210,8 +210,8 @@
 			children = (
 				4FB1DDBD274969C6006FF982 /* Int+Extensions.swift */,
 				4FB1DDDF27499E85006FF982 /* Double+Extension.swift */,
-				4FB1DDE42749A18F006FF982 /* ImageView+extension.swift */,
 				4FD91187274D6D6600DA5941 /* UIView+Extension.swift */,
+				4FD91190274D8E4B00DA5941 /* ImageView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -541,9 +541,9 @@
 				4FB1DDC8274975B4006FF982 /* Responses.swift in Sources */,
 				4FB1DDCC27498CBB006FF982 /* BaseViewController.swift in Sources */,
 				4FD9118E274D6F4E00DA5941 /* ProductDetailViewController.swift in Sources */,
+				4FD91191274D8E4B00DA5941 /* ImageView+Extensions.swift in Sources */,
 				4FB1DD8A27496679006FF982 /* SceneDelegate.swift in Sources */,
 				4FB1DDBA274967D4006FF982 /* RequestType.swift in Sources */,
-				4FB1DDE52749A18F006FF982 /* ImageView+extension.swift in Sources */,
 				4FB1DDBE274969C6006FF982 /* Int+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

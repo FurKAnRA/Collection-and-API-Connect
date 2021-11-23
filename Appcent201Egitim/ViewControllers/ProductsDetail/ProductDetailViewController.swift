@@ -17,6 +17,7 @@ class ProductDetailViewController: BaseViewController {
     @IBOutlet weak var buyButton: UIButton!
     
     private let productId : Int
+    let network = Network()
 
     init (productId : Int){
         self.productId = productId
@@ -36,7 +37,7 @@ class ProductDetailViewController: BaseViewController {
     
     func getDetails(with id : Int){
         
-        let network = Network()
+        
         
         network.request(type: .productDetails(id: id)) { (result : Result<BaseResponse<Product>, CustomError>) in
             switch result {
@@ -64,6 +65,8 @@ class ProductDetailViewController: BaseViewController {
     }
     
     @IBAction func actionAddToCart(_ sender: Any) {
+        
+        network.request(type: <#T##RequestType#>, completion: <#T##(Result<Decodable, CustomError>) -> Void#>)
     }
     
 

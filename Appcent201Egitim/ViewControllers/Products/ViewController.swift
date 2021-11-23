@@ -78,7 +78,7 @@ extension ViewController : UICollectionViewDelegate,  UICollectionViewDataSource
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+    
         let productsDetails = ProductDetailViewController(productId: products[indexPath.row].id!)
 //        SEGUE OLMADAN GİDİŞ
         self.navigationController?.pushViewController(productsDetails, animated: true)

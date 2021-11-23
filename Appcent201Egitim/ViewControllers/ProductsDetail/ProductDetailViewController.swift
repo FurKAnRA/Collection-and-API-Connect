@@ -50,7 +50,7 @@ class ProductDetailViewController: BaseViewController {
                 }
                 
             case .failure(let failure):
-                print(failure.message)
+                print(failure.message!)
             }
         }
         
@@ -66,7 +66,29 @@ class ProductDetailViewController: BaseViewController {
     
     @IBAction func actionAddToCart(_ sender: Any) {
         
-        network.request(type: <#T##RequestType#>, completion: <#T##(Result<Decodable, CustomError>) -> Void#>)
+        network.request(type: .addToCart(productId: productId)) { (result : Result<BaseResponse<CartResponse>,CustomError>) in
+            switch result {
+            case .success(let success):
+                DispatchQueue.main.async {
+                    let popUp = PopUPViewController(labelText: "Sepete Eklediniz", buttonText: "Anasayfaya Git", buttonAction: self.buttonAction)
+//                    modelin alert olarak çıkması için yazılan kodlar /75-76
+                
+                    popUp.modalPresentationStyle = .overCurrentContext
+                    popUp.modalTransitionStyle = .crossDissolve
+                    self.present(popUp, animated: true, completion: nil)
+                }
+                
+            case .failure(let failure):
+                print(failure.message!)
+            }
+            
+           
+        }
+    }
+    
+    func buttonAction(){
+        self.navigationController?.popViewController(animated: true)
+        
     }
     
 

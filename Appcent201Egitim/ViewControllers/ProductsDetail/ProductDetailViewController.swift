@@ -61,6 +61,8 @@ class ProductDetailViewController: BaseViewController {
     
     
     @IBAction func actionStore(_ sender: Any) {
+        let map = MapViewController()
+        self.navigationController?.pushViewController(map, animated: true)
         
     }
     
@@ -71,8 +73,7 @@ class ProductDetailViewController: BaseViewController {
             case .success(let success):
                 DispatchQueue.main.async {
                     let popUp = PopUPViewController(labelText: "Sepete Eklediniz", buttonText: "Anasayfaya Git", buttonAction: self.buttonAction)
-//                    modelin alert olarak çıkması için yazılan kodlar /75-76
-                
+//                    modelin alert olarak çıkması için yazılan kodlar
                     popUp.modalPresentationStyle = .overCurrentContext
                     popUp.modalTransitionStyle = .crossDissolve
                     self.present(popUp, animated: true, completion: nil)

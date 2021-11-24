@@ -19,7 +19,7 @@ class BaseViewController: UIViewController {
         navigationItem.backBarButtonItem = backButton
         navigationItem.backBarButtonItem?.tintColor = UIColor(named: "black")
         
-        let cartButton = UIBarButtonItem(image: UIImage(named: "basket"), style: .plain, target: nil, action: nil)
+        let cartButton = UIBarButtonItem(image: UIImage(named: "basket"), style: .plain, target: self, action: #selector(self.goCartPage))
         
         cartButton.tintColor =  UIColor(named: "black")
         navigationItem.rightBarButtonItem = cartButton
@@ -34,6 +34,11 @@ class BaseViewController: UIViewController {
         
     }
     
+ @objc func goCartPage (){
+    
 
 
 }
+
+}
+ 

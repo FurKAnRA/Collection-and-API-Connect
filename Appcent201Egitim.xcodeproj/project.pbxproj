@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		02DE919D1524233018CBB316 /* Pods_Appcent201EgitimTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63851294DB8C85965EBD6DAF /* Pods_Appcent201EgitimTests.framework */; };
 		3C6FD99CE012671D25FFDED8 /* Pods_Appcent201Egitim_Appcent201EgitimUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852670671078DE2258CFCBE /* Pods_Appcent201Egitim_Appcent201EgitimUITests.framework */; };
+		4F3833FE274EC5ED00DDD6A7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3833FC274EC5ED00DDD6A7 /* MapViewController.swift */; };
+		4F3833FF274EC5ED00DDD6A7 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F3833FD274EC5ED00DDD6A7 /* MapViewController.xib */; };
+		4F383401274ECF6200DDD6A7 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F383400274ECF6200DDD6A7 /* ProductCollectionViewCell.xib */; };
 		4FB1DD8827496679006FF982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DD8727496679006FF982 /* AppDelegate.swift */; };
 		4FB1DD8A27496679006FF982 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DD8927496679006FF982 /* SceneDelegate.swift */; };
 		4FB1DD8C27496679006FF982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DD8B27496679006FF982 /* ViewController.swift */; };
@@ -26,7 +29,6 @@
 		4FB1DDD827499CA2006FF982 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDD627499CA2006FF982 /* ProductCollectionViewCell.swift */; };
 		4FB1DDDE27499D7D006FF982 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1DDDD27499D7D006FF982 /* Colors.xcassets */; };
 		4FB1DDE027499E85006FF982 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1DDDF27499E85006FF982 /* Double+Extension.swift */; };
-		4FCA88122749AFC8000C75DA /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FCA88112749AFC7000C75DA /* ProductCollectionViewCell.xib */; };
 		4FD91188274D6D6600DA5941 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD91187274D6D6600DA5941 /* UIView+Extension.swift */; };
 		4FD9118E274D6F4E00DA5941 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9118C274D6F4E00DA5941 /* ProductDetailViewController.swift */; };
 		4FD9118F274D6F4E00DA5941 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9118D274D6F4E00DA5941 /* ProductDetailViewController.xib */; };
@@ -59,6 +61,9 @@
 		1C1AA51B476D985849A4DB77 /* Pods-Appcent201Egitim-Appcent201EgitimUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent201Egitim-Appcent201EgitimUITests.release.xcconfig"; path = "Target Support Files/Pods-Appcent201Egitim-Appcent201EgitimUITests/Pods-Appcent201Egitim-Appcent201EgitimUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3B4D31A968E4F83C040AAB6B /* Pods_Appcent201Egitim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcent201Egitim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C69B84E50B65B37CC1BC432 /* Pods-Appcent201Egitim-Appcent201EgitimUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent201Egitim-Appcent201EgitimUITests.debug.xcconfig"; path = "Target Support Files/Pods-Appcent201Egitim-Appcent201EgitimUITests/Pods-Appcent201Egitim-Appcent201EgitimUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F3833FC274EC5ED00DDD6A7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4F3833FD274EC5ED00DDD6A7 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		4F383400274ECF6200DDD6A7 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
 		4FB1DD8727496679006FF982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FB1DD8927496679006FF982 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4FB1DD8B27496679006FF982 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +87,6 @@
 		4FB1DDE12749A09E006FF982 /* Appcent201Egitim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appcent201Egitim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB1DDE22749A09E006FF982 /* Appcent201EgitimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appcent201EgitimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB1DDE32749A09E006FF982 /* Appcent201EgitimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appcent201EgitimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FCA88112749AFC7000C75DA /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductCollectionViewCell.xib; path = ../../../../../Downloads/Hygge/Hygge/Cells/Product/ProductCollectionViewCell.xib; sourceTree = "<group>"; };
 		4FD91187274D6D6600DA5941 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		4FD9118C274D6F4E00DA5941 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 		4FD9118D274D6F4E00DA5941 /* ProductDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailViewController.xib; sourceTree = "<group>"; };
@@ -137,6 +141,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4F3833FB274EC58B00DDD6A7 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				4F3833FC274EC5ED00DDD6A7 /* MapViewController.swift */,
+				4F3833FD274EC5ED00DDD6A7 /* MapViewController.xib */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
 		4FB1DD7B27496679006FF982 = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +200,7 @@
 		4FB1DDB7274966DF006FF982 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4F3833FB274EC58B00DDD6A7 /* MapView */,
 				4FE0913F274D9D7A0080228D /* PopUP */,
 				4FE0913A274D9B8C0080228D /* CartView */,
 				4FD9118B274D6F3100DA5941 /* ProductsDetail */,
@@ -257,7 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				4FB1DDD627499CA2006FF982 /* ProductCollectionViewCell.swift */,
-				4FCA88112749AFC7000C75DA /* ProductCollectionViewCell.xib */,
+				4F383400274ECF6200DDD6A7 /* ProductCollectionViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -428,8 +442,9 @@
 			files = (
 				4FB1DDDE27499D7D006FF982 /* Colors.xcassets in Resources */,
 				4FB1DD942749667B006FF982 /* LaunchScreen.storyboard in Resources */,
-				4FCA88122749AFC8000C75DA /* ProductCollectionViewCell.xib in Resources */,
+				4F383401274ECF6200DDD6A7 /* ProductCollectionViewCell.xib in Resources */,
 				4FE09143274D9D9B0080228D /* PopUPViewController.xib in Resources */,
+				4F3833FF274EC5ED00DDD6A7 /* MapViewController.xib in Resources */,
 				4FB1DD912749667B006FF982 /* Assets.xcassets in Resources */,
 				4FB1DD8F27496679006FF982 /* Main.storyboard in Resources */,
 				4FE0913E274D9BA00080228D /* CartViewController.xib in Resources */,
@@ -577,6 +592,7 @@
 				4FB1DD8A27496679006FF982 /* SceneDelegate.swift in Sources */,
 				4FB1DDBA274967D4006FF982 /* RequestType.swift in Sources */,
 				4FB1DDBE274969C6006FF982 /* Int+Extensions.swift in Sources */,
+				4F3833FE274EC5ED00DDD6A7 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -35,6 +35,9 @@ class BaseViewController: UIViewController {
     }
     
  @objc func goCartPage (){
+     
+     let cart = CartViewController()
+     self.navigationController?.pushViewController(cart, animated: true)
     
 
 

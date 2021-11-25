@@ -11,7 +11,7 @@ enum RequestType {
     case products
     case productDetails(id : Int)
     case addToCart(productId : Int)
-    case Cart
+    case cart
     case removeCart(id : Int)
     case clearCart
     
@@ -29,7 +29,7 @@ enum RequestType {
             
             return "addtocart/" + Network.cartId.toString + "/" + productId.toString
             
-        case .Cart:
+        case .cart:
             
             return "cart/" + Network.cartId.toString
         case .removeCart(id: let id):
